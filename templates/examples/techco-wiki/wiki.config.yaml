@@ -1,0 +1,50 @@
+# TechCo Wiki configuration (showcase, minimal)
+# See templates/wiki-init/wiki.config.yaml for the full schema and defaults.
+
+version: 1
+language: en
+
+paths:
+  root: .
+  log_archive: log/
+
+categories:
+  - persone
+  - sistemi
+  - progetti
+  - concetti
+  - documenti
+
+tags:
+  dominio:
+    - personal
+    - work
+    - shared
+  stato:
+    - produzione
+    - wip
+    - prototipo
+    - archivio
+  stack:
+    - postgres
+    - stripe
+    - react-native
+    - typescript
+  prodotto: []
+  area:
+    - sicurezza
+    - performance
+    - ui
+    - carriera
+  tecnica:
+    - webhook
+    - hmac
+    - backfill
+
+limits:
+  tldr_threshold_kb: 20
+  split_threshold_kb: 60
+  log_rotation_kb: 50
+  thin_page_bytes: 200
+
+aliases: {}

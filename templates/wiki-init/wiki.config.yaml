@@ -1,0 +1,114 @@
+# wiki.config.yaml — configuration for the wiki-writer skill
+# Place this file at the root of your wiki.
+
+version: 1
+
+# Language used for Claude-generated text: log entries, index descriptions, TL;DR sections.
+# Technical identifiers (API names, hooks, code) always stay in English regardless.
+# Supported: en, it, es, fr, de, pt (others fall back to en)
+language: en
+
+paths:
+  # All paths relative to this config file
+  root: .
+  log_archive: log/
+
+# Top-level folder categories. Add or remove freely.
+# Each folder is created on init; the skill places pages into them.
+categories:
+  - persone     # people / entities
+  - sistemi     # systems / infrastructure / SaaS
+  - progetti    # projects (active, paused, archived)
+  - concetti    # reusable technical knowledge
+  - documenti   # received documents (contracts, letters, scans)
+  # - finanza   # uncomment for personal finance records
+
+# Controlled tag vocabulary.
+# Namespaces are FIXED — values below are STARTERS, extend in tags.md as you grow.
+# See skill/wiki-writer/tag-taxonomy.md for rationale.
+tags:
+
+  # WHO/WHAT does this page belong to. Extend with clients, side projects, etc.
+  dominio:
+    - personal
+    - work
+    - shared
+
+  # Lifecycle. Only meaningful for tipo/progetto or tipo/sistema.
+  stato:
+    - produzione
+    - wip
+    - prototipo
+    - idea
+    - pausa
+    - archivio
+    - deprecato
+
+  # Your tech stack. Extend freely.
+  stack:
+    - wp
+    - woo
+    - react
+    - nextjs
+    - typescript
+    - python
+    - postgres
+    - mysql
+    - redis
+    - supabase
+    - stripe
+    - tailwind
+
+  # Specific products within stacks. Extend freely.
+  prodotto: []
+
+  # Topical / functional domains. Curated starter set.
+  area:
+    - crm
+    - automation
+    - marketing
+    - email
+    - seo
+    - tracking
+    - sicurezza
+    - performance
+    - ui
+    - design-system
+    - dashboard
+    - analytics
+    - finanza
+    - carriera
+    - scraping
+    - social-media
+    - content
+    - legale
+    - documenti
+
+  # Cross-cutting patterns. Curated starter set.
+  tecnica:
+    - oauth
+    - hmac
+    - aes-gcm
+    - webhook
+    - rest-api
+    - hook
+    - mcp
+    - tdd
+    - loop-prevention
+    - idempotency
+    - backfill
+    - tz-aware
+    - mapping
+    - schema-db
+    - sql
+
+# Size thresholds (in KB) that trigger formatting rules.
+limits:
+  tldr_threshold_kb: 20      # add TL;DR + ToC above this
+  split_threshold_kb: 60     # propose splitting into multi-file folder above this
+  log_rotation_kb: 50        # suggest monthly archive when log.md exceeds this
+  thin_page_bytes: 200       # warn if a page is too thin
+
+# Optional: aliases — old tag names mapped to their canonical replacement.
+# Populated automatically when you migrate from a free-form tag system.
+aliases: {}

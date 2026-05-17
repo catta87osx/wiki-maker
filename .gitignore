@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Obsidian (when testing the skill against a real vault)
+.obsidian/
+.trash/
+
+# Temp files from audit scripts
+/tmp/wiki_*
+.wiki-audit-cache/
+
+# Python venv (if contributors add Python tooling)
+.venv/
+__pycache__/
+*.pyc
