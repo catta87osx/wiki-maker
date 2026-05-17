@@ -151,7 +151,7 @@ To pin it explicitly, add to `~/.claude/CLAUDE.md`:
 ```markdown
 ## Wiki location
 
-My wiki lives at `<absolute-path>/`. Use the wiki-writer skill for any operation
+My wiki lives at `<absolute-path>/`. Use the wiki-maker skill for any operation
 involving the wiki.
 ```
 

@@ -1,6 +1,6 @@
 # Wiki schema and conventions
 
-This file defines the conventions for this wiki. **Do not edit unless you intend to change skill behavior** — the `wiki-writer` Claude Code skill reads it on every operation.
+This file defines the conventions for this wiki. **Do not edit unless you intend to change skill behavior** — the `wiki-maker` Claude Code skill reads it on every operation.
 
 Configuration: [wiki.config.yaml](wiki.config.yaml)
 Tag vocabulary: [tags.md](tags.md)
@@ -106,4 +106,4 @@ Use the audit script: `bash scripts/wiki-audit.sh`. Add a `lint`-type log entry 
 
 ## Skill reference
 
-This wiki is designed to be operated by the `wiki-writer` Claude Code skill. Full conventions: [wiki-writer/conventions.md](https://github.com/catta87osx/claude-wiki-skill/blob/main/skill/wiki-writer/conventions.md).
+This wiki is designed to be operated by the `wiki-maker` Claude Code skill. Full conventions: [wiki-maker/conventions.md](https://github.com/catta87osx/wiki-maker/blob/main/skill/wiki-maker/conventions.md).

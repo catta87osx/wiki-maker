@@ -1,6 +1,6 @@
 # Wiki Index
 
-Catalog of every page in this wiki. Auto-maintained by the `wiki-writer` skill.
+Catalog of every page in this wiki. Auto-maintained by the `wiki-maker` skill.
 
 **Schema & conventions:** [[WIKI]]
 **Tag vocabulary:** [[tags]]

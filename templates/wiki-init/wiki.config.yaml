@@ -1,4 +1,4 @@
-# wiki.config.yaml — configuration for the wiki-writer skill
+# wiki.config.yaml — configuration for the wiki-maker skill
 # Place this file at the root of your wiki.
 
 version: 1
@@ -25,7 +25,7 @@ categories:
 
 # Controlled tag vocabulary.
 # Namespaces are FIXED — values below are STARTERS, extend in tags.md as you grow.
-# See skill/wiki-writer/tag-taxonomy.md for rationale.
+# See skill/wiki-maker/tag-taxonomy.md for rationale.
 tags:
 
   # WHO/WHAT does this page belong to. Extend with clients, side projects, etc.

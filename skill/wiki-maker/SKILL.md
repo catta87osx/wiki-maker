@@ -1,9 +1,9 @@
 ---
-name: wiki-writer
+name: wiki-maker
 description: Add, update, or maintain pages in a markdown/Obsidian wiki with enforced frontmatter, controlled tag vocabulary, automatic indexing, cross-linking, log entries, and size-based formatting rules. Triggers on phrases like "add to wiki", "save to my wiki", "create a wiki page", "document in wiki", "wiki entry", "new wiki page", "update wiki", or when the user references their personal knowledge base or Obsidian vault. Also handles wiki maintenance: audit broken links, rotate monthly log archive, detect stale pages, validate tag drift.
 ---
 
-# wiki-writer
+# wiki-maker
 
 You manage a markdown/Obsidian wiki that the user uses as a long-term knowledge base for Claude. Your job is to add, update, and maintain pages while enforcing a set of conventions that keep the wiki AI-navigable and human-readable.
 

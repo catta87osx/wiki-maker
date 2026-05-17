@@ -2,9 +2,9 @@
 
 Controlled vocabulary for this wiki. **Only the values listed here are valid as tags.**
 
-The `wiki-writer` skill validates against this file on every write. To add a new tag value, edit this file *first*.
+The `wiki-maker` skill validates against this file on every write. To add a new tag value, edit this file *first*.
 
-See also: [`wiki.config.yaml`](wiki.config.yaml) for runtime configuration · [`skill/wiki-writer/tag-taxonomy.md`](https://github.com/catta87osx/claude-wiki-skill/blob/main/skill/wiki-writer/tag-taxonomy.md) for the namespace rationale.
+See also: [`wiki.config.yaml`](wiki.config.yaml) for runtime configuration · [`skill/wiki-maker/tag-taxonomy.md`](https://github.com/catta87osx/wiki-maker/blob/main/skill/wiki-maker/tag-taxonomy.md) for the namespace rationale.
 
 ---
 

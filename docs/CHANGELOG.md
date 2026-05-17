@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `claude-wiki-skill`. Format based on [Keep a Changelog](https://keepachangelog.com/).
+All notable changes to `wiki-maker`. Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 

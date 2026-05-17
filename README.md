@@ -1,4 +1,4 @@
-# claude-wiki-skill
+# wiki-maker
 
 A [Claude Code](https://claude.com/claude-code) skill that turns your Obsidian/markdown wiki into a structured, AI-friendly knowledge base — with enforced frontmatter, controlled tag vocabulary, automatic indexing, and log rotation.
 
@@ -19,7 +19,7 @@ When you ask Claude *"add this to my wiki"* or *"save this as a wiki page"*, thi
 7. **Validates wikilinks** before writing — no broken `[[references]]` shipped.
 8. **Reminds you to rotate** `log.md` when it crosses your size threshold.
 
-The skill enforces ~50 best practices across 16 categories (see [conventions.md](skill/wiki-writer/conventions.md)) split into four tiers:
+The skill enforces ~50 best practices across 16 categories (see [conventions.md](skill/wiki-maker/conventions.md)) split into four tiers:
 
 - **Tier 1 — hard blocks** (missing frontmatter, invalid tag, wrong folder)
 - **Tier 2 — confirm before override** (no TL;DR on a 30 KB file)
@@ -33,11 +33,11 @@ The skill enforces ~50 best practices across 16 categories (see [conventions.md]
 ### 1. Install the skill
 
 ```bash
-git clone https://github.com/<you>/claude-wiki-skill.git ~/.claude/skills/wiki-writer-repo
-ln -s ~/.claude/skills/wiki-writer-repo/skill/wiki-writer ~/.claude/skills/wiki-writer
+git clone https://github.com/<you>/wiki-maker.git ~/.claude/skills/wiki-maker-repo
+ln -s ~/.claude/skills/wiki-maker-repo/skill/wiki-maker ~/.claude/skills/wiki-maker
 ```
 
-Or copy `skill/wiki-writer/` directly into `~/.claude/skills/`.
+Or copy `skill/wiki-maker/` directly into `~/.claude/skills/`.
 
 ### 2. Bootstrap a new wiki
 
@@ -62,7 +62,7 @@ my-wiki/
 Add to your `~/.claude/CLAUDE.md`:
 
 ```markdown
-My wiki lives at `~/Documents/my-wiki/`. Use the `wiki-writer` skill whenever I ask to add, save, or document something there.
+My wiki lives at `~/Documents/my-wiki/`. Use the `wiki-maker` skill whenever I ask to add, save, or document something there.
 ```
 
 ### 4. Try it
@@ -115,7 +115,7 @@ Seven fixed namespaces (structure is universal; **values** you customize):
 | `area/*` | Topical domain (marketing, security, performance ...) | optional, repeatable |
 | `tecnica/*` | Cross-cutting techniques (oauth, hmac, mcp ...) | optional, repeatable |
 
-Full details and rationale: [skill/wiki-writer/tag-taxonomy.md](skill/wiki-writer/tag-taxonomy.md).
+Full details and rationale: [skill/wiki-maker/tag-taxonomy.md](skill/wiki-maker/tag-taxonomy.md).
 
 ---
 

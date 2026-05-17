@@ -1,6 +1,6 @@
 # Wiki schema and conventions
 
-This is the showcase wiki for the `claude-wiki-skill` repo — a fictional company called TechCo. Use it to see what the skill's conventions look like in practice.
+This is the showcase wiki for the `wiki-maker` repo — a fictional company called TechCo. Use it to see what the skill's conventions look like in practice.
 
 The real schema doc that ships with new wikis is in [`templates/wiki-init/WIKI.md`](../../wiki-init/WIKI.md). This file is identical to it but lightly trimmed for the demo.
 
@@ -69,7 +69,7 @@ Note how every page:
 
 ```bash
 # Point Claude at this showcase
-echo "Test wiki at $(pwd)/templates/examples/techco-wiki. Use wiki-writer skill." >> ~/.claude/CLAUDE.md
+echo "Test wiki at $(pwd)/templates/examples/techco-wiki. Use wiki-maker skill." >> ~/.claude/CLAUDE.md
 
 # Then in Claude Code:
 # > add to wiki: <some test content>

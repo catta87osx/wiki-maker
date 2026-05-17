@@ -1,6 +1,6 @@
 # Wiki conventions — full reference
 
-The 16 categories of best practices enforced by the `wiki-writer` skill. Each rule is annotated with its enforcement tier (see SKILL.md for tier definitions).
+The 16 categories of best practices enforced by the `wiki-maker` skill. Each rule is annotated with its enforcement tier (see SKILL.md for tier definitions).
 
 ---
 

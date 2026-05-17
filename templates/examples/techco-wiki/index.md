@@ -1,6 +1,6 @@
 # TechCo Wiki Index
 
-Fictional showcase wiki used in the `claude-wiki-skill` repo to demonstrate every convention. Not a real company.
+Fictional showcase wiki used in the `wiki-maker` repo to demonstrate every convention. Not a real company.
 
 **Schema & conventions:** [[WIKI]]
 **Tag vocabulary:** [[tags]]
@@ -56,4 +56,4 @@ Fictional showcase wiki used in the `claude-wiki-skill` repo to demonstrate ever
 
 ---
 
-*Last modified: 2026-05-17 — Showcase wiki for claude-wiki-skill demo.*
+*Last modified: 2026-05-17 — Showcase wiki for wiki-maker demo.*

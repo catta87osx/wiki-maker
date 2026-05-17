@@ -80,7 +80,7 @@ The simplest test: bootstrap a fresh wiki, exercise the skill, verify behavior.
 bash scripts/wiki-init.sh /tmp/test-wiki
 
 # Tell Claude about it
-echo "Wiki at /tmp/test-wiki. Use wiki-writer skill." >> ~/.claude/CLAUDE.md
+echo "Wiki at /tmp/test-wiki. Use wiki-maker skill." >> ~/.claude/CLAUDE.md
 
 # In Claude Code:
 # > add to wiki: <some content that exercises the rule you changed>
