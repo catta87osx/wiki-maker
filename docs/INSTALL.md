@@ -8,7 +8,7 @@ Three ways to install the `wiki-writer` skill.
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/<your-user>/claude-wiki-skill.git wiki-writer-repo
+git clone https://github.com/catta87osx/claude-wiki-skill.git wiki-writer-repo
 ln -s "$(pwd)/wiki-writer-repo/skill/wiki-writer" ./wiki-writer
 ```
 
@@ -20,7 +20,7 @@ You can `git pull` the repo for updates without touching the symlink.
 
 ```bash
 cd /tmp
-git clone https://github.com/<your-user>/claude-wiki-skill.git
+git clone https://github.com/catta87osx/claude-wiki-skill.git
 cp -R claude-wiki-skill/skill/wiki-writer ~/.claude/skills/
 rm -rf claude-wiki-skill
 ```

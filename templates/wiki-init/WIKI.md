@@ -106,4 +106,4 @@ Use the audit script: `bash scripts/wiki-audit.sh`. Add a `lint`-type log entry 
 
 ## Skill reference
 
-This wiki is designed to be operated by the `wiki-writer` Claude Code skill. Full conventions: [wiki-writer/conventions.md](https://github.com/<your-user>/claude-wiki-skill/blob/main/skill/wiki-writer/conventions.md).
+This wiki is designed to be operated by the `wiki-writer` Claude Code skill. Full conventions: [wiki-writer/conventions.md](https://github.com/catta87osx/claude-wiki-skill/blob/main/skill/wiki-writer/conventions.md).
