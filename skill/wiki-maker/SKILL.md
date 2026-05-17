@@ -75,7 +75,7 @@ If unclear between two, **ask the user**.
 - No `:`, `?`, `*`, `<`, `>`, `|`, `"` characters
 - Extension `.md` always
 
-Example: title `"Postgres Cluster — Backup Procedure"` → filename `backup-procedure.md` (or `backup-procedure.md` if it's a sub-page of a project folder).
+Example: title `"Postgres Cluster — Backup Procedure"` → filename `postgres-cluster-backup-procedure.md` (or just `backup-procedure.md` if it lives inside a `postgres-cluster/` project subfolder).
 
 ### Step 3. Build frontmatter (Tier 1)
 

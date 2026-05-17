@@ -38,7 +38,7 @@ The 16 categories of best practices enforced by the `wiki-maker` skill. Each rul
 |------|------|
 | Lowercase, kebab-case | 1 |
 | No spaces in folder names (breaks bash/grep) | 1 |
-| Filename = title slug. e.g. title `"Postgres Cluster — Backup Procedure"` → filename `backup-procedure.md` | 2 |
+| Filename = title slug. e.g. title `"Postgres Cluster — Backup Procedure"` → filename `postgres-cluster-backup-procedure.md` (or `backup-procedure.md` inside a `postgres-cluster/` subfolder) | 2 |
 | File-system-safe: no `:`, `?`, `*`, `<`, `>`, `|`, `"` | 1 |
 | Basename collisions across folders OK only if the user explicitly uses path-aware wikilinks (`[[path/to/page]]`) | 2 |
 
